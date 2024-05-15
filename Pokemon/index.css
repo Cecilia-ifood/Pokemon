@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  background-image: url("https://i.pinimg.com/originals/10/b2/7d/10b27d33cb1d1b69e9db7384e3a7e9bd.png");
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.buscar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.pokemon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.pokemon__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border: 1px solid white;
+  background-image: url("https://i.pinimg.com/1200x/e6/5f/4a/e65f4a73e2a09c6ef3661d1197587f57.jpg");
+  background-size: 100% 130%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  padding: 0 20px;
+}
+
+img.pokemon__img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid white;
+  background-color:transparent;
+}
+
+.pokemon__info h2 {
+  color: white;
+  font-size: 24px;
+  margin: 0 ;
+  padding: 20px 0 20px;
+}
+
+.pokemon__info p {
+  color: black;
+  font-size: 18px;
+  margin: 0;
+  padding: 0 0 30px;
+}
+
+.pokemon__info span {
+  color: black;
+  font-size: 18px;
+}
+
+input{
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+  margin: 10px 10px;
+  padding: 5px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(32, 141, 184);
+  color: white;
+}
